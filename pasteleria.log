@@ -1,0 +1,65 @@
+2025-10-16T22:47:38.124-03:00  INFO 9720 --- [pasteleria] [main] c.e.pasteleria.PasteleriaApplication     : Starting PasteleriaApplication using Java 21.0.8 with PID 9720 (C:\Users\PC GAMER\Downloads\pasteleria\target\classes started by PC GAMER in C:\Users\PC GAMER\Downloads\pasteleria)
+2025-10-16T22:47:38.129-03:00  INFO 9720 --- [pasteleria] [main] c.e.pasteleria.PasteleriaApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T22:47:38.689-03:00  INFO 9720 --- [pasteleria] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-16T22:47:38.742-03:00  INFO 9720 --- [pasteleria] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+2025-10-16T22:47:39.109-03:00  INFO 9720 --- [pasteleria] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8180 (http)
+2025-10-16T22:47:39.122-03:00  INFO 9720 --- [pasteleria] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-16T22:47:39.123-03:00  INFO 9720 --- [pasteleria] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-16T22:47:39.174-03:00  INFO 9720 --- [pasteleria] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-16T22:47:39.175-03:00  INFO 9720 --- [pasteleria] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1009 ms
+2025-10-16T22:47:39.318-03:00  INFO 9720 --- [pasteleria] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-16T22:47:39.388-03:00  INFO 9720 --- [pasteleria] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-16T22:47:39.421-03:00  INFO 9720 --- [pasteleria] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-16T22:47:39.665-03:00  INFO 9720 --- [pasteleria] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-16T22:47:39.687-03:00  INFO 9720 --- [pasteleria] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-16T22:47:40.018-03:00  INFO 9720 --- [pasteleria] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1850f2da
+2025-10-16T22:47:40.018-03:00  INFO 9720 --- [pasteleria] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-16T22:47:40.054-03:00  WARN 9720 --- [pasteleria] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-16T22:47:40.054-03:00  WARN 9720 --- [pasteleria] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-16T22:47:40.070-03:00  INFO 9720 --- [pasteleria] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-16T22:47:40.665-03:00  INFO 9720 --- [pasteleria] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-16T22:47:40.715-03:00  INFO 9720 --- [pasteleria] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-16T22:47:40.884-03:00  WARN 9720 --- [pasteleria] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-16T22:47:41.144-03:00  INFO 9720 --- [pasteleria] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8180 (http) with context path '/'
+2025-10-16T22:47:41.160-03:00  INFO 9720 --- [pasteleria] [main] c.e.pasteleria.PasteleriaApplication     : Started PasteleriaApplication in 3.421 seconds (process running for 3.705)
+2025-10-16T22:48:32.631-03:00  INFO 13632 --- [pasteleria] [main] c.e.pasteleria.PasteleriaApplication     : Starting PasteleriaApplication using Java 21.0.8 with PID 13632 (C:\Users\PC GAMER\Downloads\pasteleria\target\classes started by PC GAMER in C:\Users\PC GAMER\Downloads\pasteleria)
+2025-10-16T22:48:32.633-03:00  INFO 13632 --- [pasteleria] [main] c.e.pasteleria.PasteleriaApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T22:48:33.101-03:00  INFO 13632 --- [pasteleria] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-16T22:48:33.152-03:00  INFO 13632 --- [pasteleria] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+2025-10-16T22:48:33.492-03:00  INFO 13632 --- [pasteleria] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8180 (http)
+2025-10-16T22:48:33.503-03:00  INFO 13632 --- [pasteleria] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-16T22:48:33.503-03:00  INFO 13632 --- [pasteleria] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-16T22:48:33.557-03:00  INFO 13632 --- [pasteleria] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-16T22:48:33.558-03:00  INFO 13632 --- [pasteleria] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 896 ms
+2025-10-16T22:48:33.695-03:00  INFO 13632 --- [pasteleria] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-16T22:48:33.734-03:00  INFO 13632 --- [pasteleria] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-16T22:48:33.761-03:00  INFO 13632 --- [pasteleria] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-16T22:48:33.969-03:00  INFO 13632 --- [pasteleria] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-16T22:48:33.992-03:00  INFO 13632 --- [pasteleria] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-16T22:48:34.256-03:00  INFO 13632 --- [pasteleria] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bab95ca
+2025-10-16T22:48:34.258-03:00  INFO 13632 --- [pasteleria] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-16T22:48:34.288-03:00  WARN 13632 --- [pasteleria] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-16T22:48:34.289-03:00  WARN 13632 --- [pasteleria] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-16T22:48:34.304-03:00  INFO 13632 --- [pasteleria] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-16T22:48:34.834-03:00  INFO 13632 --- [pasteleria] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-16T22:48:34.871-03:00  INFO 13632 --- [pasteleria] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-16T22:48:35.033-03:00  WARN 13632 --- [pasteleria] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-16T22:48:35.276-03:00  INFO 13632 --- [pasteleria] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8180 (http) with context path '/'
+2025-10-16T22:48:35.282-03:00  INFO 13632 --- [pasteleria] [main] c.e.pasteleria.PasteleriaApplication     : Started PasteleriaApplication in 3.009 seconds (process running for 3.257)
+2025-10-16T22:48:41.435-03:00  INFO 13632 --- [pasteleria] [http-nio-8180-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-16T22:48:41.435-03:00  INFO 13632 --- [pasteleria] [http-nio-8180-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-16T22:48:41.437-03:00  INFO 13632 --- [pasteleria] [http-nio-8180-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
