@@ -1,7 +1,10 @@
 package com.example.pasteleria.model;
 
+import java.util.List;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 
 @Entity
 public class Cliente {
@@ -48,4 +51,7 @@ public class Cliente {
 	public void setCorreo(String correo) {
 		this.correo = correo;
 	}
+
+	@OneToMany(mappedBy = "cliente")
+    private List<Pedido> pedidos;
 }
