@@ -1,19 +1,23 @@
 package com.example.pasteleria.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 
 import com.example.pasteleria.model.Pastel;
 import com.example.pasteleria.repository.PastelRepository;
 
+import lombok.RequiredArgsConstructor;
+
 @Service
+@RequiredArgsConstructor
 public class PastelService {
 	
-	@Autowired
-	private PastelRepository pastelrepo;
+	private final PastelRepository pastelrepo;
 	
-	public Iterable<Pastel> getPasteles() {
-		return pastelrepo.findAll();
+	public List<Pastel> getPasteles() {
+		return (List<Pastel>) pastelrepo.findAll();
 	}
 	
 	public Pastel getPastelById(Long id) {

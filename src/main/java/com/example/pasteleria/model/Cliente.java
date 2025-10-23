@@ -2,11 +2,20 @@ package com.example.pasteleria.model;
 
 import java.util.List;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 @Entity
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Cliente {
 	@Id
 	private String run;
@@ -15,43 +24,10 @@ public class Cliente {
 	private String apellido;
 	private int edad;
 	private String correo;
-	
-	public String getRun() {
-		return run;
-	}
-	
-	public void setRun(String run) {
-		this.run = run;
-	}
-	
-	public String getNombre() {
-		return nombre;
-	}
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-	
-	public String getApellido() {
-		return apellido;
-	}
-	public void setApellido(String apellido) {
-		this.apellido = apellido;
-	}
-	
-	public int getEdad() {
-		return edad;
-	}
-	public void setEdad(int edad) {
-		this.edad = edad;
-	}
-	
-	public String getCorreo() {
-		return correo;
-	}
-	public void setCorreo(String correo) {
-		this.correo = correo;
-	}
 
-	@OneToMany(mappedBy = "cliente")
+	// Relación con Pedido
+	@OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL)
+	@ToString.Exclude
+	@EqualsAndHashCode.Exclude
     private List<Pedido> pedidos;
 }

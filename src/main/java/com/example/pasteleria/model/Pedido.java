@@ -11,8 +11,16 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 @Entity
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Pedido {
 
     @Id
@@ -23,46 +31,20 @@ public class Pedido {
     private double total;
     private String estado;
 
-    //getters y setters
-    public Long getIdPedido() {
-        return idPedido;
-    }
-    public void setIdPedido(Long idPedido) {
-        this.idPedido = idPedido;
-    }
-
-    public LocalDate getFechaePedido() {
-        return fechaePedido;
-    }
-    public void setFechaePedido(LocalDate fechaePedido) {
-        this.fechaePedido = fechaePedido;
-    }
-
-    public double getTotal() {
-        return total;
-    }
-    public void setTotal(double total) {
-        this.total = total;
-    }
-
-    public String getEstado() {
-        return estado;
-    }
-    public void setEstado(String estado) {
-        this.estado = estado;
-    }
-
-
+    // Relación con Cliente
     @ManyToOne
     @JoinColumn(name = "cliente_rut")
     private Cliente cliente;
 
+    // Relación con Pastel
     @ManyToMany
     @JoinTable(
         name = "pedido_pastel",
         joinColumns = @JoinColumn(name = "pedido_id"),
         inverseJoinColumns = @JoinColumn(name = "pastel_id")
     )
+    @ToString.Exclude
+    @EqualsAndHashCode.Exclude
     private List<Pastel> pasteles;
 
 

@@ -2,17 +2,18 @@ package com.example.pasteleria.service;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.pasteleria.model.Cliente;
 import com.example.pasteleria.repository.ClienteRepository;
 
+import lombok.RequiredArgsConstructor;
+
 @Service
+@RequiredArgsConstructor
 public class ClienteService {
 	
-	@Autowired
-	private ClienteRepository clienterepo;
+	private final ClienteRepository clienterepo;
 	
 	public List<Cliente> getAllClientes() {
 		return (List<Cliente>) clienterepo.findAll();
