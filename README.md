@@ -24,7 +24,7 @@ Instalacion
 1.-Clonacion de reposotitorio : git clone https://github.com/agustilin/Equipo10_Caceres-Turra/tree/features
 2.-Importar los proyectos : importar cada carpeta como proyectos Maven existentes
 3.-Configuracion de la base de datos: activar y modificar MySQL dentro de application.properties
-spring.datasource.url=jdbc:mysql://localhost:3306/pasteleria_[nombre_micro]?useSSL=false
+jdbc:mysql://localhost:3306/[db]
 spring.datasource.username=root
 spring.datasource.password=tu_contraseña
 spring.jpa.hibernate.ddl-auto=update
