@@ -1,4 +1,4 @@
-package com.pasteleria.micro_usuarios.service;
+package com.pasteleria.micro_usuarios.service.Impl;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -10,6 +10,7 @@ import com.pasteleria.micro_usuarios.entity.TipoUsuarioEntity;
 import com.pasteleria.micro_usuarios.entity.UsuarioEntity;
 import com.pasteleria.micro_usuarios.repository.TipoUsuarioRepository;
 import com.pasteleria.micro_usuarios.repository.UsuarioRepository;
+import com.pasteleria.micro_usuarios.service.UsuarioService;
 
 import lombok.RequiredArgsConstructor;
 
