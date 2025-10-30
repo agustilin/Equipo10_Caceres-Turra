@@ -1,6 +1,7 @@
 Microservicios PasteleriaMilSabores
+Tienda e-commerce de pasteleria
 
-
+Evaluación Parcial 2 JVY0101 
 
 Grupo 10 :
 Agustin Caceres
