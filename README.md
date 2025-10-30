@@ -18,8 +18,8 @@ core-microservicio
 
 Instalacion
 
-1.-Clonacion de reposotitorio
-2.-Creacion de base de datos //pasteles
+1.-Clonacion de reposotitorio : git clone https://github.com/agustilin/Equipo10_Caceres-Turra/tree/features
+2.-Creacion de base de datos //pasteles : create database pasteles;
 3.-Ejecutar
 
 
